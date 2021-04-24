@@ -11,6 +11,10 @@ class TestApp(MDApp):
                         text_color = (1/255.0, 94/255.0, 44/255.0, 1),
                         font_style = 'Caption')
     
-        return label1
+        #return label2
+    
+        icon_label = MDIcon(icon = 'language-python', halign = 'center')
+        
+        return icon_label
     
 TestApp().run()
